@@ -34,7 +34,7 @@ public class Carrot implements Product {
 
         List<Object> lst = new ArrayList<>();
         lst.add("dupa");
-        lst.add(1);
+        lst.add(122);
         System.out.println(lst.get(0));
     }
 
