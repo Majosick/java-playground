@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Carrot implements Product {
 
-    private int cost = 78;
+    private int cost = 88;
 
     public static void main(String[] args) {
 
