@@ -5,7 +5,7 @@ public class Anagram {
 
     public static void main(String[] args) {
 
-        System.out.println("Siema, wprowadz kolejno dwa wyrazy, a powiem Ci czy to anagramy");
+        System.out.println("Hi, eneter two words, and I'll tell yuo whether they are anagrams");
         Scanner scanner = new Scanner(System.in);
         String firstWord = scanner.nextLine();
         String secondWord = scanner.nextLine();

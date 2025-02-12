@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class Main2 {
 
     public static void main(String[] args) {
 
@@ -21,6 +21,6 @@ public class Main {
                 System.out.println(e.getFirstName() + " zarabia mniej niż 20000");
             }
         }
-        lista.stream()
+        lista.stream();
     }
 }
