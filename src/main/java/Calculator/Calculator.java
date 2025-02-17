@@ -1,9 +1,8 @@
 package Calculator;
 
-public class Kalkulator {
+public class Calculator {
 
-
-    public int dividing(int number1, int number2){
+    public int divide(int number1, int number2){
         try{
             return number1/number2;
         }
@@ -17,7 +16,7 @@ public class Kalkulator {
     }
 
     public static void main(String[] args) {
-        Kalkulator k = new Kalkulator();
-        k.dividing(1,0);
+        Calculator c = new Calculator();
+        c.divide(1,0);
     }
 }
