@@ -1,6 +1,7 @@
+package TimeFormat;
+
 import java.util.Scanner;
 import java.util.regex.Pattern;
-import org.apache.commons.lang3.RandomStringUtils;
 
 public class Main {
 

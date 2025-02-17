@@ -1,3 +1,5 @@
+package VegeShapes;
+
 public interface Drawable {
 
     int cos = 9;

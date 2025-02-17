@@ -1,3 +1,5 @@
+package Persons;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class JsonSerializationExample {

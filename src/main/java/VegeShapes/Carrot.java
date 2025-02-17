@@ -1,3 +1,5 @@
+package VegeShapes;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +9,7 @@ public class Carrot implements Product {
 
     public static void main(String[] args) {
 
-//        Circle2 cos = new Circle2(1,2,3);
+//        VegeShapes.Circle2 cos = new VegeShapes.Circle2(1,2,3);
 //        int yyz = cos.z;
 //        System.out.println(yyz);
 //        int k = cos.draw2();
