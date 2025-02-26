@@ -9,7 +9,7 @@ public class Calculator {
             e.printStackTrace();
             return 0;
         } finally {
-            System.out.println("ja sie i tak wykonam");
+            System.out.println("I will execute anyways");
         }
     }
 

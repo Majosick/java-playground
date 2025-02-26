@@ -15,8 +15,29 @@ public class Employee {
         this.position = position;
     }
 
+    public static void main(String[] args) {
+
+        Employee e1 = new Employee("Peter", 10000, "boss");
+        Employee e2 = new Employee("Adam", 15000, "boss");
+        Employee e3 = new Employee("Matthew", 20000, "boss");
+
+        e2.increaseSalaryBy(2000);
+
+        List<Employee> employeeList = new ArrayList<>();
+        employeeList.add(e1);
+        employeeList.add(e2);
+        employeeList.add(e3);
+
+        for (Employee e : employeeList) {
+            if (e.getSalary() < 20000) {
+                System.out.println(e.getFirstName() + " earns less than 20000");
+            }
+        }
+        employeeList.stream();
+    }
+
     public void increaseSalaryBy(int newSalary) {
-        this.salary += newSalary ;
+        this.salary += newSalary;
     }
 
     public String getFirstName() {
@@ -25,26 +46,5 @@ public class Employee {
 
     public int getSalary() {
         return salary;
-    }
-
-    public static void main(String[] args) {
-
-        Employee e1 = new Employee("Piotr", 10000, "szef");
-        Employee e2 = new Employee("Adam", 15000, "szef");
-        Employee e3 = new Employee("Mati", 20000, "szef");
-
-        e2.increaseSalaryBy(2000);
-
-        List<Employee> lista = new ArrayList<>();
-        lista.add(e1);
-        lista.add(e2);
-        lista.add(e3);
-
-        for (Employee e : lista) {
-            if (e.getSalary() < 20000) {
-                System.out.println(e.getFirstName() + " zarabia mniej niż 20000");
-            }
-        }
-        lista.stream();
     }
 }
