@@ -17,6 +17,6 @@ abstract class Shape {
         return y;
     }
 
-    abstract void draw();
+    abstract int draw();
 
 }

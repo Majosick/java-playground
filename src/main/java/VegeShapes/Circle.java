@@ -1,15 +1,23 @@
 package VegeShapes;
 
-public class Circle implements Drawable {
+public class Circle extends Shape implements Drawable {
 
-    private int radius;
+    int radius;
 
-    public Circle (int radius){
+    public Circle(int x, int y, int radius) {
+        super(x, y);
         this.radius = radius;
     }
 
+    //from shape
     @Override
-    public void draw() {
-        System.out.println("costam");
+    int draw() {
+    return 1;
+    }
+
+    //from drawable
+    @Override
+    public void paintShape() {
+
     }
 }

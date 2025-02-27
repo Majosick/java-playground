@@ -1,8 +1,11 @@
 package VegeShapes;
 
-public interface Drawable {
+interface Drawable {
+    int a = 9, b = 9;
 
-    int cos = 9;
+    default void drawShape() {
+        System.out.println("drawing shape");
+    }
 
-    void draw();
+    void paintShape();
 }
