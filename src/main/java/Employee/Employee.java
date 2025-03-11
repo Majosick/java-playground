@@ -23,6 +23,9 @@ public class Employee {
 
         e2.increaseSalaryBy(2000);
 
+
+        // Immutable lista
+        List<Employee> employeeList2 = List.of(e1, e2, e3);
         List<Employee> employeeList = new ArrayList<>();
         employeeList.add(e1);
         employeeList.add(e2);
