@@ -1,4 +1,4 @@
-package VegeShapes;
+package vegeshapes;
 
 public class Apple implements Product {
 

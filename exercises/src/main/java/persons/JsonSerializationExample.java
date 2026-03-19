@@ -1,4 +1,4 @@
-package Persons;
+package persons;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonSetter;

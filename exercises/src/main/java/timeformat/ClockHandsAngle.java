@@ -1,4 +1,4 @@
-package TimeFormat;
+package timeformat;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;

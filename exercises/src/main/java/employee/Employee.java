@@ -1,4 +1,4 @@
-package Employee;
+package employee;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,6 @@ public class Employee {
         Employee e3 = new Employee("Matthew", 20000, "boss");
 
         e2.increaseSalaryBy(2000);
-
 
         // Immutable lista
         List<Employee> employeeList2 = List.of(e1, e2, e3);

@@ -1,4 +1,4 @@
-package VegeShapes;
+package vegeshapes;
 
 public class Circle extends Shape implements Drawable {
 

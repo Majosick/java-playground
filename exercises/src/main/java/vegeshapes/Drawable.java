@@ -1,4 +1,4 @@
-package VegeShapes;
+package vegeshapes;
 
 interface Drawable {
     int a = 9, b = 9;
