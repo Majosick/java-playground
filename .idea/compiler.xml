@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Playground" />
+        <module name="selenium" />
+        <module name="exercises" />
         <module name="java-playground" />
       </profile>
     </annotationProcessing>
